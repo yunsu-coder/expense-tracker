@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Card body -->
+    <path
+        android:fillColor="#6366F1"
+        android:pathData="M34,28 L74,28 A8,8 0 0,1 82,36 L82,76 A8,8 0 0,1 74,84 L34,84 A8,8 0 0,1 26,76 L26,36 A8,8 0 0,1 34,28 Z" />
+
+    <!-- Card chip (white circle at top) -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,38 m-5,0 a5,5 0 1,0 10,0 a5,5 0 1,0 -10,0" />
+
+    <!-- Dot 1 - orange (food) -->
+    <path
+        android:fillColor="#F97316"
+        android:pathData="M36,52 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Line 1 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C7D2FE"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,52 L70,52" />
+
+    <!-- Dot 2 - blue (transport) -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M36,59 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Line 2 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C7D2FE"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,59 L62,59" />
+
+    <!-- Dot 3 - green (shopping) -->
+    <path
+        android:fillColor="#34D399"
+        android:pathData="M36,66 m-2.5,0 a2.5,2.5 0 1,0 5,0 a2.5,2.5 0 1,0 -5,0" />
+
+    <!-- Line 3 -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#C7D2FE"
+        android:strokeWidth="2.5"
+        android:strokeLineCap="round"
+        android:pathData="M42,66 L66,66" />
+
+    <!-- Total line -->
+    <path
+        android:fillColor="#00000000"
+        android:strokeColor="#FFFFFF"
+        android:strokeWidth="3"
+        android:strokeLineCap="round"
+        android:pathData="M35,74 L73,74" />
+</vector>

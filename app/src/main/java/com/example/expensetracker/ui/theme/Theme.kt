@@ -19,8 +19,14 @@ private val LightColorScheme = lightColorScheme(
     onSecondary = onSecondaryLight,
     secondaryContainer = secondaryContainerLight,
     onSecondaryContainer = onSecondaryContainerLight,
+    tertiary = tertiaryLight,
+    onTertiary = onTertiaryLight,
     surface = surfaceLight,
     onSurface = onSurfaceLight,
+    surfaceVariant = surfaceVariantLight,
+    onSurfaceVariant = onSurfaceVariantLight,
+    background = backgroundLight,
+    error = errorLight,
 )
 
 private val DarkColorScheme = darkColorScheme(
@@ -32,8 +38,14 @@ private val DarkColorScheme = darkColorScheme(
     onSecondary = onSecondaryDark,
     secondaryContainer = secondaryContainerDark,
     onSecondaryContainer = onSecondaryContainerDark,
+    tertiary = tertiaryDark,
+    onTertiary = onTertiaryDark,
     surface = surfaceDark,
     onSurface = onSurfaceDark,
+    surfaceVariant = surfaceVariantDark,
+    onSurfaceVariant = onSurfaceVariantDark,
+    background = backgroundDark,
+    error = errorDark,
 )
 
 @Composable
@@ -53,6 +65,7 @@ fun ExpenseTrackerTheme(
 
     MaterialTheme(
         colorScheme = colorScheme,
+        typography = Typography,
         content = content
     )
 }
